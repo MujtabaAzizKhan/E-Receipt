@@ -1,0 +1,286 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:1024px;
+  min-width:200px;
+  max-width:1440px;
+  margin:auto;
+  background-color:rgba(236, 239, 245, 1);
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.Back-Arrow{
+  position:relative;
+  z-index:13;
+  pointer-events:none;
+  margin-left:54px;
+  width:50px;
+  min-width:50px;
+  height:50px;
+  margin-top:33px;
+  margin-bottom:941px;
+  min-height:50px;
+  content:url(assets/images/Back_Arrow.png);
+}
+.Back-Arrow-outer{
+  pointer-events:none;
+  z-index:13;
+  position:relative;
+  display:flex;
+}
+.Rectangle-16{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:108px;
+  width:1223px;
+  min-width:1223px;
+  height:705px;
+  margin-top:-864px;
+  margin-bottom:159px;
+  min-height:705px;
+  background-color:rgba(255, 255, 255, 1);
+  border-radius:65px;
+}
+.Rectangle-16-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.image-4{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:213px;
+  width:214px;
+  min-width:214px;
+  height:142px;
+  margin-top:-845px;
+  margin-bottom:703px;
+  min-height:142px;
+  content:url(assets/images/image_4.png);
+}
+.image-4-outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.image-3{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:578px;
+  width:680px;
+  min-width:680px;
+  height:561px;
+  margin-top:-822px;
+  margin-bottom:261px;
+  min-height:561px;
+  content:url(assets/images/image_3.png);
+}
+.image-3-outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.Forgot-Password-{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:229px;
+  width:302px;
+  min-width:302px;
+  margin-top:-687px;
+  margin-bottom:541px;
+  min-height:146px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Kulim Park;
+  font-weight:700;
+  font-size:64px;
+  line-height:73px;
+}
+.Forgot-Password--outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.Enter-the-email-asso{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:230px;
+  width:292px;
+  min-width:292px;
+  margin-top:-525px;
+  margin-bottom:509px;
+  min-height:16px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Kulim Park;
+  font-weight:700;
+  font-size:14px;
+  line-height:16px;
+}
+.Enter-the-email-asso-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.Rectangle-11{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:230px;
+  width:250px;
+  min-width:250px;
+  height:40px;
+  margin-top:-478px;
+  margin-bottom:438px;
+  min-height:40px;
+  background-color:rgba(255, 255, 255, 1);
+  border:1px solid rgba(0, 0, 0, 1);
+  box-sizing:border-box;
+  border-radius:6px;
+}
+.Rectangle-11-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.Enter-the-email-addr{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:245px;
+  width:150px;
+  min-width:150px;
+  margin-top:-465px;
+  margin-bottom:449px;
+  min-height:16px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(165, 150, 150, 1);
+  font-style:normal;
+  font-family:Kulim Park;
+  font-weight:700;
+  font-size:14px;
+  line-height:16px;
+}
+.Enter-the-email-addr-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.Rectangle-15{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:381px;
+  width:100px;
+  min-width:100px;
+  height:40px;
+  margin-top:-407px;
+  margin-bottom:367px;
+  min-height:40px;
+  background-color:rgba(236, 239, 245, 1);
+  border:1px solid rgba(0, 0, 0, 1);
+  box-sizing:border-box;
+  border-radius:13px;
+}
+.Rectangle-15-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.Next{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:416px;
+  width:29px;
+  min-width:29px;
+  margin-top:-395px;
+  margin-bottom:379px;
+  min-height:16px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Kulim Park;
+  font-weight:700;
+  font-size:14px;
+  line-height:16px;
+}
+.Next-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.Try-another-way{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:249px;
+  width:107px;
+  min-width:107px;
+  margin-top:-394px;
+  margin-bottom:378px;
+  min-height:16px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Kulim Park;
+  font-weight:700;
+  font-size:14px;
+  line-height:16px;
+}
+.Try-another-way-outer{
+  pointer-events:none;
+  z-index:6;
+  position:relative;
+  display:flex;
+}
