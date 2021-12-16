@@ -1,682 +1,653 @@
-.websiteBody{
+.websiteBody {
   margin: 0;
-}.Page{
-  display:block;
-  margin:auto;
-  width:100%;
-  height:auto;
-  pointer-events:auto;
 }
-.Page-outer{
-  pointer-events:none;
-  z-index:1;
+.Page {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
 }
-.Frame{
-  position:relative;
-  z-index:2;
-  pointer-events:none;
-  width:100%;
-  margin-left:0;
-  height:1024px;
-  min-width:200px;
-  max-width:1440px;
-  margin:auto;
-  background-color:rgba(145, 46, 222, 0.20000000298023224);
-  backdrop-filter:blur(4px);
-  -webkit-backdrop-filter:blur(4px);
-  overflow:hidden;
+.Page-outer {
+  z-index: 1;
 }
-.Frame-outer{
-  pointer-events:none;
-  z-index:2;
+.Frame {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  margin-left: 0;
+  height: 1024px;
+  min-width: 200px;
+  max-width: 1440px;
+  margin: auto;
+  background-color: rgba(145, 46, 222, 0.20000000298023224);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  overflow: hidden;
 }
-.image-4{
-  position:relative;
-  z-index:26;
-  pointer-events:none;
-  margin-left:143px;
-  width:236px;
-  min-width:236px;
-  height:160px;
-  margin-top:114px;
-  margin-bottom:750px;
-  min-height:160px;
-  content:url(assets/images/image_4.png);
+.Frame-outer {
+  z-index: 2;
 }
-.image-4-outer{
-  pointer-events:none;
-  z-index:26;
-  position:relative;
-  display:flex;
+.image-4 {
+  position: relative;
+  z-index: 26;
+
+  margin-left: 143px;
+  width: 236px;
+  min-width: 236px;
+  height: 160px;
+  margin-top: 114px;
+  margin-bottom: 750px;
+  min-height: 160px;
+  content: url(assets/images/image_4.png);
 }
-.q211449711-1{
-  position:relative;
-  z-index:22;
-  pointer-events:none;
-  margin-left:516px;
-  width:786px;
-  min-width:786px;
-  height:796px;
-  margin-top:-883px;
-  margin-bottom:87px;
-  min-height:796px;
-  content:url(assets/images/_211449711_1.png);
+.image-4-outer {
+  z-index: 5;
+  position: relative;
+  display: flex;
 }
-.q211449711-1-outer{
-  pointer-events:none;
-  z-index:22;
-  position:relative;
-  display:flex;
+.q211449711-1 {
+  position: relative;
+  z-index: 22;
+
+  margin-left: 516px;
+  width: 786px;
+  min-width: 786px;
+  height: 796px;
+  margin-top: -883px;
+  margin-bottom: 87px;
+  min-height: 796px;
+  content: url(assets/images/_211449711_1.png);
 }
-.Login-1{
-  position:relative;
-  z-index:7;
-  pointer-events:none;
-  margin-left:181px;
-  width:89px;
-  min-width:89px;
-  margin-top:-704px;
-  margin-bottom:662px;
-  min-height:42px;
-  text-align:left;
-  color:rgba(3, 3, 3, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:nullpx;
-  line-height:15px;
+.q211449711-1-outer {
+  z-index: 22;
+  position: relative;
+  display: flex;
 }
-.Login-1-outer{
-  pointer-events:none;
-  z-index:7;
-  position:relative;
-  display:flex;
+.Login-1 {
+  position: relative;
+  z-index: 7;
+
+  margin-left: 181px;
+  width: 89px;
+  min-width: 89px;
+  margin-top: -704px;
+  margin-bottom: 662px;
+  min-height: 42px;
+  text-align: left;
+  color: rgba(3, 3, 3, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: nullpx;
+  line-height: 15px;
 }
-.Login-1-1{
-  color:rgba(3, 3, 3, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:36px;
-  line-height:15px;
+.Login-1-outer {
+  z-index: 7;
+  position: relative;
+  display: flex;
 }
-.Login-1-2{
-  color:rgba(3, 3, 3, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:13px;
-  line-height:15px;
+.Login-1-1 {
+  color: rgba(3, 3, 3, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 15px;
 }
-.Don-t-have-an-Accoun{
-  position:relative;
-  z-index:15;
-  pointer-events:none;
-  margin-left:181px;
-  width:221px;
-  min-width:221px;
-  margin-top:-652px;
-  margin-bottom:637px;
-  min-height:15px;
-  text-align:left;
-  color:rgba(0, 0, 0, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:13px;
-  line-height:15px;
+.Login-1-2 {
+  color: rgba(3, 3, 3, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
 }
-.Don-t-have-an-Accoun-outer{
-  pointer-events:none;
-  z-index:15;
-  position:relative;
-  display:flex;
+.Don-t-have-an-Accoun {
+  position: relative;
+  z-index: 15;
+
+  margin-left: 181px;
+  width: 221px;
+  min-width: 221px;
+  margin-top: -652px;
+  margin-bottom: 637px;
+  min-height: 15px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
 }
-.Don-t-have-an-Accoun-1{
-  color:rgba(0, 0, 0, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:13px;
-  line-height:15px;
+.Don-t-have-an-Accoun-outer {
+  z-index: 15;
+  position: relative;
+  display: flex;
 }
-.Don-t-have-an-Accoun-2{
-  color:rgba(0, 0, 0, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:13px;
-  text-decoration:underline;
-  line-height:15px;
+.Don-t-have-an-Accoun-1 {
+  color: rgba(0, 0, 0, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
 }
-.E-Receipt{
-  position:fixed;
-  z-index:27;
-  pointer-events:none;
-  transform:rotate(-0.03751745896128731deg);
-  margin-left:auto;
-  width:102px;
-  min-width:200px;
-  min-height:27px;
-  left:1045px;
-  right:0;
-  top:389px;
-  bottom:0;
-  margin-right:auto;
-  max-width:1440px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(114, 26, 1, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:24px;
-  line-height:27px;
+.Don-t-have-an-Accoun-2 {
+  color: rgba(0, 0, 0, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: underline;
+  line-height: 15px;
 }
-.E-Receipt-outer{
-  pointer-events:none;
-  z-index:27;
-  position:relative;
-  display:flex;
+.E-Receipt {
+  position: fixed;
+  z-index: 27;
+
+  transform: rotate(-0.03751745896128731deg);
+  margin-left: auto;
+  width: 102px;
+  min-width: 200px;
+  min-height: 27px;
+  left: 1045px;
+  right: 0;
+  top: 389px;
+  bottom: 0;
+  margin-right: auto;
+  max-width: 1440px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(114, 26, 1, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
 }
-.Email-Address{
-  position:relative;
-  z-index:6;
-  pointer-events:none;
-  margin-left:181px;
-  width:111px;
-  min-width:111px;
-  margin-top:-604px;
-  margin-bottom:584px;
-  min-height:20px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(0, 0, 0, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:18px;
-  line-height:21px;
+.E-Receipt-outer {
+  z-index: 27;
+  position: relative;
+  display: flex;
 }
-.Email-Address-outer{
-  pointer-events:none;
-  z-index:6;
-  position:relative;
-  display:flex;
+.Email-Address {
+  position: relative;
+  z-index: 6;
+
+  margin-left: 181px;
+  width: 111px;
+  min-width: 111px;
+  margin-top: -604px;
+  margin-bottom: 584px;
+  min-height: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
-.Rectangle-2{
-  position:relative;
-  z-index:9;
-  pointer-events:none;
-  margin-left:181px;
-  width:250px;
-  min-width:250px;
-  height:40px;
-  margin-top:-578px;
-  margin-bottom:538px;
-  min-height:40px;
-  background-color:rgba(255, 255, 255, 1);
-  border:1px solid rgba(0, 0, 0, 1);
-  box-sizing:border-box;
-  border-radius:6px;
+.Email-Address-outer {
+  z-index: 6;
+  position: relative;
+  display: flex;
 }
-.Rectangle-2-outer{
-  pointer-events:none;
-  z-index:9;
-  position:relative;
-  display:flex;
+.Rectangle-2 {
+  position: relative;
+  z-index: 9;
+
+  margin-left: 181px;
+  width: 250px;
+  min-width: 250px;
+  height: 40px;
+  margin-top: -578px;
+  margin-bottom: 538px;
+  min-height: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  border-radius: 6px;
 }
-.Enter-your-email{
-  position:relative;
-  z-index:24;
-  pointer-events:none;
-  margin-left:192px;
-  width:106px;
-  min-width:106px;
-  margin-top:-566px;
-  margin-bottom:550px;
-  min-height:16px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(165, 150, 150, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:14px;
-  line-height:16px;
+.Rectangle-2-outer {
+  z-index: 9;
+  position: relative;
+  display: flex;
 }
-.Enter-your-email-outer{
-  pointer-events:none;
-  z-index:24;
-  position:relative;
-  display:flex;
+.Enter-your-email {
+  position: relative;
+  z-index: 24;
+
+  margin-left: 192px;
+  width: 106px;
+  min-width: 106px;
+  margin-top: -566px;
+  margin-bottom: 550px;
+  min-height: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(165, 150, 150, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
-.Enter-your-email-1{
-  position:relative;
-  z-index:11;
-  pointer-events:none;
-  margin-left:192px;
-  width:106px;
-  min-width:106px;
-  margin-top:-566px;
-  margin-bottom:550px;
-  min-height:16px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(165, 150, 150, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:14px;
-  line-height:16px;
+.Enter-your-email-outer {
+  z-index: 24;
+  position: relative;
+  display: flex;
 }
-.Enter-your-email-1-outer{
-  pointer-events:none;
-  z-index:11;
-  position:relative;
-  display:flex;
+.Enter-your-email-1 {
+  position: relative;
+  z-index: 11;
+
+  margin-left: 192px;
+  width: 106px;
+  min-width: 106px;
+  margin-top: -566px;
+  margin-bottom: 550px;
+  min-height: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(165, 150, 150, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
-.Password-1{
-  position:relative;
-  z-index:4;
-  pointer-events:none;
-  margin-left:181px;
-  width:80px;
-  min-width:75px;
-  margin-top:-525px;
-  margin-bottom:504px;
-  min-height:21px;
-  text-align:left;
-  color:rgba(31, 23, 23, 1);
-  font-style:normal;
-  font-family:;
-  font-weight:400;
-  font-size:18px;
-  line-height:21px;
+.Enter-your-email-1-outer {
+  z-index: 11;
+  position: relative;
+  display: flex;
 }
-.Password-1-outer{
-  pointer-events:none;
-  z-index:4;
-  position:relative;
-  display:flex;
+.Password-1 {
+  position: relative;
+  z-index: 4;
+
+  margin-left: 181px;
+  width: 80px;
+  min-width: 75px;
+  margin-top: -525px;
+  margin-bottom: 504px;
+  min-height: 21px;
+  text-align: left;
+  color: rgba(31, 23, 23, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
-.Password-1-1{
-  color:rgba(31, 23, 23, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:18px;
-  line-height:21px;
+.Password-1-outer {
+  z-index: 4;
+  position: relative;
+  display: flex;
 }
-.Password-1-2{
-  color:rgba(31, 23, 23, 1);
-  font-style:normal;
-  font-family:Roboto;
-  font-weight:700;
-  font-size:18px;
-  line-height:21px;
+.Password-1-1 {
+  color: rgba(31, 23, 23, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
-.Password-1-3{
-  color:rgba(31, 23, 23, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:18px;
-  line-height:21px;
+.Password-1-2 {
+  color: rgba(31, 23, 23, 1);
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
-.Forgot-Password-{
-  position:relative;
-  z-index:5;
-  pointer-events:none;
-  margin-left:316px;
-  width:111px;
-  min-width:111px;
-  margin-top:-520px;
-  margin-bottom:504px;
-  min-height:16px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(31, 23, 23, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:14px;
-  line-height:16px;
+.Password-1-3 {
+  color: rgba(31, 23, 23, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
-.Forgot-Password--outer{
-  pointer-events:none;
-  z-index:5;
-  position:relative;
-  display:flex;
+.Forgot-Password- {
+  position: relative;
+  z-index: 5;
+
+  margin-left: 316px;
+  width: 111px;
+  min-width: 111px;
+  margin-top: -520px;
+  margin-bottom: 504px;
+  min-height: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(31, 23, 23, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
-.Rectangle-3{
-  position:relative;
-  z-index:10;
-  pointer-events:none;
-  margin-left:181px;
-  width:250px;
-  min-width:250px;
-  height:40px;
-  margin-top:-492px;
-  margin-bottom:452px;
-  min-height:40px;
-  background-color:rgba(255, 255, 255, 1);
-  border:1px solid rgba(0, 0, 0, 1);
-  box-sizing:border-box;
-  border-radius:6px;
+.Forgot-Password--outer {
+  z-index: 5;
+  position: relative;
+  display: flex;
 }
-.Rectangle-3-outer{
-  pointer-events:none;
-  z-index:10;
-  position:relative;
-  display:flex;
+.Rectangle-3 {
+  position: relative;
+  z-index: 10;
+
+  margin-left: 181px;
+  width: 250px;
+  min-width: 250px;
+  height: 40px;
+  margin-top: -492px;
+  margin-bottom: 452px;
+  min-height: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  border-radius: 6px;
 }
-.eye-1{
-  position:relative;
-  z-index:12;
-  pointer-events:none;
-  margin-left:393px;
-  width:23px;
-  min-width:23px;
-  height:20px;
-  margin-top:-482px;
-  margin-bottom:462px;
-  min-height:20px;
-  content:url(assets/images/eye_1.png);
+.Rectangle-3-outer {
+  z-index: 10;
+  position: relative;
+  display: flex;
 }
-.eye-1-outer{
-  pointer-events:none;
-  z-index:12;
-  position:relative;
-  display:flex;
+.eye-1 {
+  position: relative;
+  z-index: 12;
+
+  margin-left: 393px;
+  width: 23px;
+  min-width: 23px;
+  height: 20px;
+  margin-top: -482px;
+  margin-bottom: 462px;
+  min-height: 20px;
+  content: url(assets/images/eye_1.png);
 }
-.Password{
-  position:relative;
-  z-index:25;
-  pointer-events:none;
-  margin-left:192px;
-  width:59px;
-  min-width:59px;
-  margin-top:-480px;
-  margin-bottom:464px;
-  min-height:16px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(165, 150, 150, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:14px;
-  line-height:16px;
+.eye-1-outer {
+  z-index: 12;
+  position: relative;
+  display: flex;
 }
-.Password-outer{
-  pointer-events:none;
-  z-index:25;
-  position:relative;
-  display:flex;
+.Password {
+  position: relative;
+  z-index: 25;
+
+  margin-left: 192px;
+  width: 59px;
+  min-width: 59px;
+  margin-top: -480px;
+  margin-bottom: 464px;
+  min-height: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(165, 150, 150, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
-.Remember-Me{
-  position:relative;
-  z-index:8;
-  pointer-events:none;
-  margin-left:200px;
-  width:122px;
-  min-width:122px;
-  margin-top:-437px;
-  margin-bottom:418px;
-  min-height:19px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(13, 12, 12, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:14px;
-  line-height:16px;
+.Password-outer {
+  z-index: 25;
+  position: relative;
+  display: flex;
 }
-.Remember-Me-outer{
-  pointer-events:none;
-  z-index:8;
-  position:relative;
-  display:flex;
+.Remember-Me {
+  position: relative;
+  z-index: 8;
+
+  margin-left: 200px;
+  width: 122px;
+  min-width: 122px;
+  margin-top: -437px;
+  margin-bottom: 418px;
+  min-height: 19px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(13, 12, 12, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
-.Rectangle-7{
-  position:relative;
-  z-index:23;
-  pointer-events:none;
-  margin-left:187px;
-  width:10px;
-  min-width:10px;
-  height:9px;
-  margin-top:-433px;
-  margin-bottom:424px;
-  min-height:9px;
-  background-color:rgba(250, 250, 250, 1);
-  border:1px solid rgba(0, 0, 0, 1);
-  box-sizing:border-box;
-  border-radius:2px;
+.Remember-Me-outer {
+  z-index: 8;
+  position: relative;
+  display: flex;
 }
-.Rectangle-7-outer{
-  pointer-events:none;
-  z-index:23;
-  position:relative;
-  display:flex;
+.Rectangle-7 {
+  position: relative;
+  z-index: 23;
+
+  margin-left: 187px;
+  width: 10px;
+  min-width: 10px;
+  height: 9px;
+  margin-top: -433px;
+  margin-bottom: 424px;
+  min-height: 9px;
+  background-color: rgba(250, 250, 250, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  border-radius: 2px;
 }
-.Rectangle-4{
-  position:relative;
-  z-index:13;
-  pointer-events:none;
-  margin-left:181px;
-  width:250px;
-  min-width:250px;
-  height:40px;
-  margin-top:-404px;
-  margin-bottom:364px;
-  min-height:40px;
-  background-color:rgba(233, 213, 248, 1);
-  border:1px solid rgba(0, 0, 0, 1);
-  box-sizing:border-box;
+.Rectangle-7-outer {
+  z-index: 23;
+  position: relative;
+  display: flex;
 }
-.Rectangle-4-outer{
-  pointer-events:none;
-  z-index:13;
-  position:relative;
-  display:flex;
+.Rectangle-4 {
+  position: relative;
+  z-index: 13;
+
+  margin-left: 181px;
+  width: 250px;
+  min-width: 250px;
+  height: 40px;
+  margin-top: -404px;
+  margin-bottom: 364px;
+  min-height: 40px;
+  background-color: rgba(233, 213, 248, 1);
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
 }
-.Login{
-  position:relative;
-  z-index:14;
-  pointer-events:none;
-  margin-left:280px;
-  width:52px;
-  min-width:52px;
-  margin-top:-391px;
-  margin-bottom:370px;
-  min-height:21px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(0, 0, 0, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:14px;
-  line-height:16px;
+.Rectangle-4-outer {
+  z-index: 13;
+  position: relative;
+  display: flex;
 }
-.Login-outer{
-  pointer-events:none;
-  z-index:14;
-  position:relative;
-  display:flex;
+.Login {
+  position: relative;
+  z-index: 14;
+  margin-left: 280px;
+  width: 52px;
+  min-width: 52px;
+  margin-top: -391px;
+  margin-bottom: 370px;
+  min-height: 21px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
-.or-login-with{
-  position:relative;
-  z-index:17;
-  pointer-events:none;
-  margin-left:263px;
-  width:83px;
-  min-width:83px;
-  margin-top:-333px;
-  margin-bottom:317px;
-  min-height:16px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(22, 19, 19, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:14px;
-  line-height:16px;
+.Login-outer {
+  z-index: 14;
+  position: relative;
+  display: flex;
 }
-.or-login-with-outer{
-  pointer-events:none;
-  z-index:17;
-  position:relative;
-  display:flex;
+.or-login-with {
+  position: relative;
+  z-index: 17;
+
+  margin-left: 263px;
+  width: 83px;
+  min-width: 83px;
+  margin-top: -333px;
+  margin-bottom: 317px;
+  min-height: 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(22, 19, 19, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
-.Line-2{
-  position:relative;
-  z-index:21;
-  pointer-events:none;
-  transform:rotate(180deg);
-  margin-left:333px;
-  width:77px;
-  min-width:77px;
-  margin-top:-324px;
-  margin-bottom:324px;
-  min-height:undefinedpx;
-  border:1px solid rgba(245, 239, 239, 1);
+.or-login-with-outer {
+  z-index: 17;
+  position: relative;
+  display: flex;
 }
-.Line-2-outer{
-  pointer-events:none;
-  z-index:21;
-  position:relative;
-  display:flex;
+.Line-2 {
+  position: relative;
+  z-index: 21;
+
+  transform: rotate(180deg);
+  margin-left: 333px;
+  width: 77px;
+  min-width: 77px;
+  margin-top: -324px;
+  margin-bottom: 324px;
+  min-height: undefinedpx;
+  border: 1px solid rgba(245, 239, 239, 1);
 }
-.Line-1{
-  position:relative;
-  z-index:20;
-  pointer-events:none;
-  transform:rotate(-9.691548408123772e-17deg);
-  margin-left:353px;
-  width:80px;
-  min-width:80px;
-  margin-top:-324px;
-  margin-bottom:324px;
-  min-height:undefinedpx;
-  border:1px solid rgba(255, 255, 255, 1);
+.Line-2-outer {
+  z-index: 21;
+  position: relative;
+  display: flex;
 }
-.Line-1-outer{
-  pointer-events:none;
-  z-index:20;
-  position:relative;
-  display:flex;
+.Line-1 {
+  position: relative;
+  z-index: 20;
+
+  transform: rotate(-9.691548408123772e-17deg);
+  margin-left: 353px;
+  width: 80px;
+  min-width: 80px;
+  margin-top: -324px;
+  margin-bottom: 324px;
+  min-height: undefinedpx;
+  border: 1px solid rgba(255, 255, 255, 1);
 }
-.Rectangle-6{
-  position:relative;
-  z-index:16;
-  pointer-events:none;
-  margin-left:215px;
-  width:182px;
-  min-width:182px;
-  height:43px;
-  margin-top:-290px;
-  margin-bottom:247px;
-  min-height:43px;
-  background-color:rgba(255, 255, 255, 1);
-  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border:1px solid rgba(0, 0, 0, 1);
-  box-sizing:border-box;
-  border-radius:10px;
+.Line-1-outer {
+  z-index: 20;
+  position: relative;
+  display: flex;
 }
-.Rectangle-6-outer{
-  pointer-events:none;
-  z-index:16;
-  position:relative;
-  display:flex;
+.Rectangle-6 {
+  position: relative;
+  z-index: 16;
+
+  margin-left: 215px;
+  width: 182px;
+  min-width: 182px;
+  height: 43px;
+  margin-top: -290px;
+  margin-bottom: 247px;
+  min-height: 43px;
+  background-color: rgba(255, 255, 255, 1);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  border-radius: 10px;
 }
-.Google{
-  position:relative;
-  z-index:18;
-  pointer-events:none;
-  margin-left:275px;
-  width:57px;
-  min-width:57px;
-  margin-top:-280px;
-  margin-bottom:260px;
-  min-height:20px;
-  text-align:left;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-start;
-  color:rgba(248, 54, 54, 1);
-  font-style:normal;
-  font-family:Kulim Park;
-  font-weight:700;
-  font-size:18px;
-  line-height:21px;
+.Rectangle-6-outer {
+  z-index: 16;
+  position: relative;
+  display: flex;
 }
-.Google-outer{
-  pointer-events:none;
-  z-index:18;
-  position:relative;
-  display:flex;
+.Google {
+  position: relative;
+  z-index: 18;
+
+  margin-left: 275px;
+  width: 57px;
+  min-width: 57px;
+  margin-top: -280px;
+  margin-bottom: 260px;
+  min-height: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(248, 54, 54, 1);
+  font-style: normal;
+  font-family: Kulim Park;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
-.google-logo-9808-1{
-  position:relative;
-  z-index:19;
-  pointer-events:none;
-  margin-left:232px;
-  width:19px;
-  min-width:19px;
-  height:19px;
-  margin-top:-278px;
-  margin-bottom:259px;
-  min-height:19px;
-  content:url(assets/images/google_logo_9808_1.png);
+.Google-outer {
+  z-index: 18;
+  position: relative;
+  display: flex;
 }
-.google-logo-9808-1-outer{
-  pointer-events:none;
-  z-index:19;
-  position:relative;
-  display:flex;
+.google-logo-9808-1 {
+  position: relative;
+  z-index: 19;
+
+  margin-left: 232px;
+  width: 19px;
+  min-width: 19px;
+  height: 19px;
+  margin-top: -278px;
+  margin-bottom: 259px;
+  min-height: 19px;
+  content: url(assets/images/google_logo_9808_1.png);
 }
-.Rectangle-5{
-  position:relative;
-  z-index:3;
-  pointer-events:none;
-  margin-left:14px;
-  width:1324px;
-  height:861px;
-  margin-top:31px;
-  content:url(assets/images/Rectangle_5.png);
+.google-logo-9808-1-outer {
+  z-index: 19;
+  position: relative;
+  display: flex;
 }
-.Rectangle-5-outer{
-  pointer-events:none;
-  z-index:3;
-  justify-content:center;
-  position:absolute;
-  display:flex;
-  width:100%;
-  height:100%;
-  left:0;
-  top:0;
-  align-items:center;
+.Rectangle-5 {
+  position: relative;
+  z-index: 3;
+
+  margin-left: 14px;
+  width: 1324px;
+  height: 861px;
+  margin-top: 31px;
+  content: url(assets/images/Rectangle_5.png);
+}
+.Rectangle-5-outer {
+  z-index: 3;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  align-items: center;
 }
